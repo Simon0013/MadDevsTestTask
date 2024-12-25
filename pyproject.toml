@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mad-devs-html-parsing"
+version = "0.1.0"
+description = ""
+authors = ["Simon0013 <borodinsimonru@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+bs4 = "^0.0.2"
+pytest = "^8.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
